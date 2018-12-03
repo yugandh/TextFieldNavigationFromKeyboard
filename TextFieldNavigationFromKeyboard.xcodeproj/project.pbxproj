@@ -12,6 +12,7 @@
 		841CA91221B4C0420082A52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841CA91021B4C0420082A52C /* Main.storyboard */; };
 		841CA91421B4C0440082A52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841CA91321B4C0440082A52C /* Assets.xcassets */; };
 		841CA91721B4C0440082A52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841CA91521B4C0440082A52C /* LaunchScreen.storyboard */; };
+		841CA91F21B4C0730082A52C /* TextFieldNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CA91E21B4C0730082A52C /* TextFieldNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		841CA91321B4C0440082A52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841CA91621B4C0440082A52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841CA91821B4C0440082A52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841CA91E21B4C0730082A52C /* TextFieldNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				841CA90C21B4C0420082A52C /* AppDelegate.swift */,
 				841CA90E21B4C0420082A52C /* ViewController.swift */,
+				841CA91E21B4C0730082A52C /* TextFieldNavigation.swift */,
 				841CA91021B4C0420082A52C /* Main.storyboard */,
 				841CA91321B4C0440082A52C /* Assets.xcassets */,
 				841CA91521B4C0440082A52C /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				841CA90F21B4C0420082A52C /* ViewController.swift in Sources */,
+				841CA91F21B4C0730082A52C /* TextFieldNavigation.swift in Sources */,
 				841CA90D21B4C0420082A52C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
